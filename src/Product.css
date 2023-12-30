@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.all:hover{
+  .glide__arrow{
+    opacity:1;
+ }
+}
+
+.bu {
+  width: 180px;
+  height: 40px;
+  border-width: 1px;
+  border-style: solid;
+  margin-left: 5px;
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px;
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.ba{
+  background:linear-gradient(180deg,#d8eff1  90%,   white 100%);
+  border-bottom-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.bu:hover{
+  background: linear-gradient(75deg, #0098ff 10%, #7b35c8 100%);
+  color:white;
+}
+
+.crimg{
+  width: 200px;
+  height: 200px;
+}
+
+.add{
+  background: linear-gradient(75deg, #0098ff 10%, #7b35c8 100%);
+  color:white;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height:fit-content;
+}
+
+.add:hover{
+  background: white;
+  color:gray;
+}
+
+.superscript {
+  vertical-align: super;
+  font-size: 10px;
+}
+
+.inputgroup{
+  width:500px;
+
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.form-select{
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cardCon:hover .buttonCon{
+  transform: translateY(0px);
+  transition: ease-out 0.5s;
+  opacity: 1;
+}
+.cardCon:hover{
+opacity: 0.8;   
+}
+
+.buttonCon{
+  transform: translateY(-400px);
+  z-index: 2;
+}
+.buttonCon > button{
+ box-shadow: 2px 4px 5px;
+}
+.upCard{
+  transform: translateY(-400px);
+     transition: ease-out 0.5s;
+  opacity: 1;
+  z-index: 2;
+}
+.hoverDiv{
+  opacity: 0;
+    height: 35px;
+    background: linear-gradient(to right , #7b35c8 , #0098ff);
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.ba:hover .hoverDiv{
+     opacity: 1;
+     transition: 400ms linear;
+}

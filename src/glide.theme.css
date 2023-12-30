@@ -1,0 +1,43 @@
+.glide__a {
+  
+  position: absolute;
+  
+  top: 50%;
+  z-index: 2;
+  color: black;
+  text-transform: uppercase;
+  padding: 9px 12px;
+  background-color: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.1);
+  text-shadow: 0 0.25em 0.5em rgba(0, 0, 0, 0.1);
+  
+  cursor: pointer;
+  transition: opacity 150ms ease, border 300ms ease-in-out;
+  transform: translateY(-50%);
+  line-height: 1;
+}
+.glide__a:focus {
+  outline: none;
+}
+
+.glide__a--left {
+  left: 20px;
+}
+.glide__a--right {
+  
+  right :20px
+}
+
+.glide__as{
+  display: none;
+}
+
+
+
+
+
+
+
+/*# sourceMappingURL=glide.theme.css.map */

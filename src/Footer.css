@@ -1,0 +1,20 @@
+.pro{
+    background: linear-gradient(75deg,#0098ff  2%,   #7b35c8 20%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.icon{
+    border-color: white ;
+    background-color: white;
+    color: black;
+    padding: 8px;
+    border-radius: 7px;
+
+}
+.icon:hover{
+    background: linear-gradient(75deg,#0098ff  10%,   #7b35c8 100%);
+    color: white;
+    border-color: black;
+  
+}
